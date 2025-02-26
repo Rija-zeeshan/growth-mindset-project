@@ -9,8 +9,8 @@ def apply_custom_styles():
         """
         <style>
             body {
-                background-color: #1e1e2f;
-                color: white;
+                background-color: #ffffff;  /* Light Theme Background */
+                color: black;  /* Light Theme Text */
                 font-family: Arial, sans-serif;
             }
             .title {
@@ -23,14 +23,17 @@ def apply_custom_styles():
                 font-size: 24px;
             }
             .text-box {
-                background-color: #2c3e50;
-                padding: 10px;
+                background-color: rgba(255, 223, 186, 0.3);  /* Light Orange Transparent */
+                padding: 15px;
                 border-radius: 10px;
+                color: black;  /* Ensuring text visibility */
+                font-size: 18px;
+                font-weight: bold;
             }
             .footer {
                 text-align: center;
                 font-size: 18px;
-                color: #95a5a6;
+                color: #555;
             }
         </style>
         """,
